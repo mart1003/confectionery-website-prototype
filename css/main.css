@@ -168,6 +168,10 @@ article {
   text-align: center;
 }
 
+.location {
+  position: relative;
+}
+
 .location h2 {
   text-align: center;
   margin: 1rem .5rem .5rem;
@@ -196,6 +200,10 @@ footer ul {
 footer a:hover {
   background-color: #99f;
   color: white;
+}
+
+.choc-bar {
+  display: none;
 }
 
 @media only screen and (min-width: 25em) {
@@ -268,14 +276,35 @@ footer a:hover {
     float: left;
   }
 
-  .map {
-    width: 50%;
+  .location {
+    overflow: hidden; 
   }
 
-  .location p {
-    width: 50%;
+  .location-img {
+    float: left;
+    width: 48%;
+  margin-top: 1rem;
+  }
+
+  .location-content p {
+    margin-bottom: 0;
+    margin-top: 1rem;
+    padding: 0;
+  }
+
+  .choc-bar {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 25%
+  }
+
+  .location-content {
     float: right;
-    padding-right: 1rem;
+    width: 48%;
   }
 
+  .location-content div {
+    text-align: center;
+  }
 }

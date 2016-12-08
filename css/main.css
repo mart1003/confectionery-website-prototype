@@ -172,7 +172,7 @@ article {
   position: relative;
 }
 
-.location h2 {
+.location h2, .about-us h2 {
   text-align: center;
   margin: 1rem .5rem .5rem;
   border: solid 2px white;
@@ -204,6 +204,15 @@ footer a:hover {
 
 .choc-bar {
   display: none;
+}
+
+.about-us h2 {
+  margin-top: 2rem;
+}
+
+.about-us p {
+  margin-left: 1rem;
+  margin-right: 1.5rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -277,7 +286,7 @@ footer a:hover {
   }
 
   .location {
-    overflow: hidden; 
+    overflow: hidden;
   }
 
   .location-img {
@@ -296,7 +305,7 @@ footer a:hover {
     display: inline-block;
     margin: 0;
     padding: 0;
-    width: 25%
+    width: 50%
   }
 
   .location-content {
@@ -307,4 +316,62 @@ footer a:hover {
   .location-content div {
     text-align: center;
   }
+
+  .about-us img {
+    float: left;
+    width: 31%;
+  }
+
+  .about-us-content {
+    float: right;
+    width: 64%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+  h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  ul a {
+    width: 25%;
+
+  }
+
+  .about-us {
+    overflow: hidden;
+  }
+
+  h2:first-of-type {
+    font-size: 2.5rem;
+  }
+
+  .about-us h2 {
+    margin-top: 0;
+  }
+
+  .location h2, .about-us h2 {
+    font-size: 2.5rem;
+  }
+
+  .choc-bar {
+    width: 70%;
+  }
+
+  .about-us-content p {
+    margin-left: 0;
+  }
+
 }

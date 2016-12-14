@@ -103,7 +103,7 @@ p {
   overflow: hidden;
   border: solid 2px white;
   border-radius: 10px;
-  margin: .5rem;
+  margin: .3rem;
   background-color: pink;
 }
 
@@ -281,8 +281,9 @@ footer a:hover {
   }
 
   article {
-    width: 47%;
+    width: 48%;
     float: left;
+    text-align: center;
   }
 
   .location {
@@ -292,7 +293,7 @@ footer a:hover {
   .location-img {
     float: left;
     width: 48%;
-  margin-top: 1rem;
+    margin-top: 1rem;
   }
 
   .location-content p {
@@ -305,7 +306,7 @@ footer a:hover {
     display: inline-block;
     margin: 0;
     padding: 0;
-    width: 50%
+    width: 50%;
   }
 
   .location-content {
@@ -352,6 +353,7 @@ footer a:hover {
 
   .about-us {
     overflow: hidden;
+    margin-top: 2rem;
   }
 
   h2:first-of-type {
@@ -412,7 +414,7 @@ footer a:hover {
   }
 
   .img-card {
-    width: 100%
+    width: 100%;
   }
 
   .btn {

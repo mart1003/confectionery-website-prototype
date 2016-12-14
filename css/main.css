@@ -270,7 +270,7 @@ footer a:hover {
 
   .img-cap {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     color: #fff;
     background-color: rgba(0, 0, 0, .5);
@@ -372,6 +372,59 @@ footer a:hover {
 
   .about-us-content p {
     margin-left: 0;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .img-cap {
+    width: 35%;
+  }
+
+  .about-us-content {
+    width: 50%;
+    float: left;
+    margin-left: 5rem;
+    margin-top: 2rem;
+  }
+
+  .card {
+    width: 49%;
+    float: left;
+    margin: .25rem;
+  }
+
+  .card-head {
+    float: left;
+    width: 50%;
+  }
+
+  .card-body {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding-left: 2rem;
+  }
+
+  .img-card {
+    width: 100%
+  }
+
+  .btn {
+    margin: 0;
+  }
+
+  .btn-align {
+    margin: 0;
+  }
+
+  .about-us h2 {
+    margin-top: 1rem;
   }
 
 }

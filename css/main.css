@@ -223,9 +223,9 @@ footer a:hover {
   width: 22%;
 }
 
- .end-nav {
-   display: block;
- }
+.end-nav {
+  display: block;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -332,7 +332,6 @@ footer a:hover {
 
   .about-us img {
     float: left;
-  
   }
 
   .about-us-content {

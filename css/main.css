@@ -192,6 +192,10 @@ article {
   text-align: center;
 }
 
+footer {
+  display: block;
+}
+
 footer ul {
   padding-top: 1rem;
 }
@@ -213,6 +217,15 @@ footer a:hover {
   margin-left: 1rem;
   margin-right: 1.5rem;
 }
+
+.about-img {
+  float: none;
+  width: 22%;
+}
+
+ .end-nav {
+   display: block;
+ }
 
 @media only screen and (min-width: 25em) {
 
@@ -319,7 +332,7 @@ footer a:hover {
 
   .about-us img {
     float: left;
-    width: 31%;
+  
   }
 
   .about-us-content {
